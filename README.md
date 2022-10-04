@@ -58,6 +58,8 @@ takes orders of magnitudes faster. (~200x).
 
 ![graphql](https://i.ibb.co/BfRsc19/image.png)
 
+<div style="page-break-after: always"></div>
+
 #### With Redis
 
 ![redis](https://i.ibb.co/xSH1KQZ/image.png)
