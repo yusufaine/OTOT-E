@@ -37,7 +37,7 @@ function routes(app: Express) {
     if (!summaries) {
       console.log("Cache miss");
       const data = await getData();
-      redisClient.setEx(REDIS_KEY, 60, JSON.stringify(data));
+      redisClient.setex(REDIS_KEY, 60, JSON.stringify(data));
       res.send(data);
     } else {
       console.log("Cache hit");
@@ -48,8 +48,8 @@ function routes(app: Express) {
   });
 
   app.get("/redis-clear", async (_req: Request, res: Response) => {
-    console.log("clearing redis");
-    const resp = await redisClient.flushAll();
+    console.log("Clearing redis");
+    const resp = await redisClient.flushall();
     res.send(resp);
   });
 
