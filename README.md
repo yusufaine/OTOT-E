@@ -56,11 +56,11 @@ takes orders of magnitudes faster. (~200x).
 
 #### Without Redis
 
-![graphql](https://i.ibb.co/BfRsc19/image.png)
+![graphql](https://i.ibb.co/jwYHLBN/image.png)
 
 <div style="page-break-after: always"></div>
 
 #### With Redis
 
-![redis](https://i.ibb.co/xSH1KQZ/image.png)
+![redis](https://i.ibb.co/THJHyKV/image.png)
 
